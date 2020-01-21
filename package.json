@@ -4,7 +4,9 @@
   "description": "Application to build and take user defined quizzes and record scores.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-build": "webpack -d --watch",
+    "server-dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
